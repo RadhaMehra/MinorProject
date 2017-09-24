@@ -1,11 +1,3 @@
-//$(document).ready(function () {
-//  var email = $('#user-email').val();
-//  var message = 'welcome back,' + email;
-  //$('.welcome-message').text(message);
-//  console.log($('#user-email').val());
-
-//});   11
-//});
 var Test = angular.module('onlineTest',['ngRoute']);     //module
 Test.config(function ($routeProvider) {
 	$routeProvider
