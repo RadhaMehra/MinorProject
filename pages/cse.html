@@ -1,11 +1,9 @@
 <!---mainbody---->
-<div class="main " ng-controller="mainController">
+<div class="cse " ng-controller="CseController">
     <nav class="navbar navbar-default navbar-fixed">
         <div class="container-fluid">
-
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <h4  class="online"> Online Test Paper</h4>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -18,9 +16,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
-              <li> <button type="submit"  class="btn btn-default" ng-click="goToLogin()">Login</button></li>
-              <li> <button type="submit"  class="btn btn-default" ng-click="goToRegister()">Register</button></li>
+                <li><a href="#">Logout</a></li>
 
             </ul>
                         </div>
@@ -29,7 +27,26 @@
         <!-- /.container-fluid -->
     </nav>
 
-  <h2 class="online1">Gate Preparation</h2>
-  <img src="" class="img-responsive gateImg" >
 
+</div>
+<div class="col-sm-4 col-md-2 cseheight">
+  <div class="cseheight">
+    <h1>Profile</h1>
+    <ul>
+      <li>Name</li>
+      <li>Branch</li>
+      <li>Email</li>
+      <li>Ph number</li>
+      <li>Edit Profile</li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="col-xs-12 col-sm-8 col-md-10">
+  <div class="cse1">My Profile</div>
+
+  <div class="cse2">Syllabus</div>
+  <div class="cse3">Download</div>
+  <div class="cse4">Mock Test</div>
 </div>
